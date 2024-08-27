@@ -15,19 +15,19 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>balxzzy | Spotify Music</title>
+        <title>balz | Spotify Music</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
         <link rel="stylesheet" href="https://nyimpen.vercel.app/component/spotfy.css" />
       </Head>
       <div className="container">
         <header>
-          <img src="https://nyimpen.vercel.app/component/logoku.png" alt="Profile Picture" className="profile-pic" />
-          <h1 className="nama">balxzzy</h1>
+          <img src="https://telegra.ph/file/06e996bdc34eeeb235282.jpg" alt="Profile Picture" className="profile-pic" />
+          <h1 className="nama">balz</h1>
           <p className="lokasi">
-            <i className="fas fa-globe-asia"></i> Kalimantan Timur, Samarinda
+            <i className="fas fa-globe-asia"></i> Selawesi Selatan, Makassar
           </p>
-          <p className="bio">”destroyer.”</p>
+          <p className="bio">”Andi Muhammad Ikbal”</p>
         </header>
 
         <section className="spotify-section">
@@ -39,7 +39,7 @@ export default function Home() {
               </div>
             )}
             <iframe
-              src="https://open.spotify.com/embed/playlist/6e5psrTK5oyi4xFRCk4MRx"
+              src="https://open.spotify.com/embed/playlist/3CHayncvVAyYaoQQH8Xqsi"
               frameBorder="0"
               allowTransparency="true"
               allow="encrypted-media"
@@ -49,16 +49,19 @@ export default function Home() {
         </section>
 
         <div className="social-icons">
-          <a href="https://github.com/balxz" target="_blank" className="social-link" rel="noopener noreferrer">
+          <a href="https://github.com/balzz" target="_blank" className="social-link" rel="noopener noreferrer">
             <i className="fab fa-github"></i>
           </a>
-          <a href="https://wa.me/6281276400345?text=hi+balxzzy" target="_blank" className="social-link" rel="noopener noreferrer">
+          <a href="https://wa.me/6287842160879?text=hi+balzz" target="_blank" className="social-link" rel="noopener noreferrer">
             <i className="fab fa-whatsapp"></i>
           </a>
-          <a href="https://instagram.com/iqstore78" target="_blank" className="social-link" rel="noopener noreferrer">
+          <a href="https://instagram.com/iikbaal21_" target="_blank" className="social-link" rel="noopener noreferrer">
             <i className="fab fa-instagram"></i>
           </a>
-          <a href="https://api.balxzzy.xyz" target="_blank" className="social-link" rel="noopener noreferrer">
+          <a href="https://t.me/Uisproject" target="_blank" className="social-link" rel="noopener noreferrer">
+            <i className="fab fa-telegram"></i>
+          </a>
+          <a href="balz-sites.vercel.app" target="_blank" className="social-link" rel="noopener noreferrer">
             <i className="fas fa-arrow-up-right-from-square"></i>
           </a>
         </div>
